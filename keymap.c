@@ -59,8 +59,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [1] = LAYOUT_65_ansi(
    KC_GRV,  KC_F1,  KC_F2,  KC_F3,  KC_F4,  KC_F5,  KC_F6,  KC_F7,  KC_F8,  KC_F9, KC_F10, KC_F11, KC_F12,          KC_DEL,KC_INS, \
    _______,_______,  KC_UP,_______,_______,_______,_______,_______,_______,_______,_______,  KC_VOLD,    KC_VOLU, _______,_______,   \
-      _______,KC_LEFT,KC_DOWN,KC_RGHT,_______,_______,RGB_HUI,RGB_SAI,KC_HOME,_______,_______,KC_PGUP,            _______,_______, \
-           RGB_TOG,RGB_RMOD,RGB_MOD,RGB_VAD,RGB_VAI,RGB_HUD,RGB_SAD,RGB_M_P, _______,_______,KC_PGDN,       _______,_______,_______, \
+      _______,KC_LEFT,KC_DOWN,KC_RGHT,_______,_______,RGB_HUI,RGB_SAI,_______,_______,_______,KC_PGUP,            _______,_______, \
+           RGB_TOG,RGB_RMOD,RGB_MOD,RGB_VAD,RGB_VAI,RGB_HUD,RGB_SAD,RGB_M_P, KC_MPRV,KC_MNXT,KC_PGDN,       _______,_______,_______, \
     _______,  _______,  _______,                     _______,                     _______,_______,_______,_______,_______, _______),
 
 };
